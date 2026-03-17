@@ -1,0 +1,13 @@
+# Global LLM configuration
+[llm]
+model = "gpt-4o"
+base_url = "https://api.openai.com/v1"
+api_key = "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"  # Replace with your actual API key
+max_tokens = 4096
+temperature = 0.0
+
+# Optional configuration for specific LLM models
+[llm.vision]
+model = "gpt-4o"
+base_url = "https://api.openai.com/v1"
+api_key = "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"  # Replace with your actual API key
